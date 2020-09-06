@@ -1,10 +1,10 @@
 ## Welkom op het portfolio van Kai Kroon
 
-You can use the [editor on GitHub](https://github.com/kaikroon1999/Portfolio-Kai/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Ik ben Kai Kroon een 21 jarige student aan de opleiding Ondernemerschap & Retail Management. Momenteel volg ik de minor Smart industry, deze minor volg ik om mijn huidige kennis die ik heb opgedaan te verbreden. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Buiten school ben ik werkzaam als verkoopmedewerker in een hoog-segment mannenkledingzaak genaamd Tijssen mode. Naast mijn werk heb ik vele hobbies die ik zelf of met mijn vrienden beoefen, zo ben ik team manager en speler van ons eigen vrienden voetbalteam. Naast voetbal ben ik ook regelmatig in de sportschool te vinden en sinds kort ook op de golfbaan bi het Rijk van Nijmegen. 
 
-### Markdown
+### Mijn ontwikkelingen
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
