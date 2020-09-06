@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welkom op het portfolio van Kai Kroon
 
 You can use the [editor on GitHub](https://github.com/kaikroon1999/Portfolio-Kai/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
