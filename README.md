@@ -8,7 +8,7 @@ Buiten school ben ik werkzaam als verkoopmedewerker in een hoog-segment mannenkl
 
 ### Mijn ontwikkelingen
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In dit portfolio worden mijn ontwikkelingen binnen deze minor beschreven. 
 
 ```markdown
 Syntax highlighted code block
