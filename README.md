@@ -4,6 +4,8 @@ Ik ben Kai Kroon een 21 jarige student aan de opleiding Ondernemerschap & Retail
 
 Buiten school ben ik werkzaam als verkoopmedewerker in een hoog-segment mannenkledingzaak genaamd Tijssen mode. Naast mijn werk heb ik vele hobbies die ik zelf of met mijn vrienden beoefen, zo ben ik team manager en speler van ons eigen vrienden voetbalteam. Naast voetbal ben ik ook regelmatig in de sportschool te vinden en sinds kort ook op de golfbaan bi het Rijk van Nijmegen. 
 
+<img width="525" alt="Schermafbeelding 2020-09-07 om 10 06 43" src="https://user-images.githubusercontent.com/70638968/92365799-9cb4c300-f0f4-11ea-90d3-bda1c4f63b04.png">
+
 ### Mijn ontwikkelingen
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
