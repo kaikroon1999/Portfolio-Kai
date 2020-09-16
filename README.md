@@ -9,6 +9,7 @@ Buiten school ben ik werkzaam als verkoopmedewerker in een hoog-segment mannenkl
 ### Mijn ontwikkelingen
 
 In dit portfolio worden mijn ontwikkelingen binnen deze minor beschreven. 
+Hier wordt gekeken naar mijn vooruitgang ten opzichte van mijn huidige kennis binnen dit vak gebied. 
 
 ```markdown
 Syntax highlighted code block
