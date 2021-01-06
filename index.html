@@ -9,18 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-    $(".ja").hide();
 
-    $(document).ready(function(){
-      $("#hide").click(function(){
-        $(".ja").show();
-      });
-      $("#show").click(function(){
-        $(".ja").hide();
-      });
-    });
+        document.getElementById("kaars").style.display = "none";
+
+        
+
     </script>
 
 
@@ -102,11 +96,11 @@ body{
             <div width="33%">
                 <img width="15%" style="padding:20px;" id="show" src="images/1.png">
 
-                <div class="ja">
-                    <button id="hide"></button>
+                <div id="kaars">
 
                     This is my DIV element. 555555
-                  </div>
+
+                </div>
         
 
 
