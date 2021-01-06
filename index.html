@@ -12,16 +12,29 @@
     <script>
 
     function hideshow() {
-        var y = none
+
+
+        var i = 0
+        var o = 1
+        
         var x = document.getElementById("myDIV");
-        x = style.display = "block"
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
+        
+        function plus() {
+        i + 1
         }
-      }
+
+        x.style.display = "none";
+
+        if (i = 1 ){
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+
+
+        
     </script>
+
 
     
 
@@ -99,10 +112,10 @@ body{
             <br><br>
 
             <div width="33%">
-                <img width="15%" style="padding:20px;" type="button" onclick="hideShow()" src="images/1.png">
+                <img width="15%" style="padding:20px;" type="button" onclick="plus()" src="images/1.png">
 
                 <div id="myDIV">
-                    This is my DIV element. 228888
+                    This is my DIV element. 229999
                   </div>
         
 
