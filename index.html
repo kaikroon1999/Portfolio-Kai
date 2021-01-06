@@ -11,12 +11,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
+    $(".ja").hide();
+
     $(document).ready(function(){
       $("#hide").click(function(){
-        $("p").hide();
+        $(".ja").show();
       });
       $("#show").click(function(){
-        $("p").show();
+        $(".ja").hide();
       });
     });
     </script>
@@ -100,10 +102,10 @@ body{
             <div width="33%">
                 <img width="15%" style="padding:20px;" id="show" src="images/1.png">
 
-                <div id="myDIV">
+                <div class="ja">
                     <button id="hide"></button>
 
-                    This is my DIV element. 33344
+                    This is my DIV element. 555555
                   </div>
         
 
