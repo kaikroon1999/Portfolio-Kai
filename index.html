@@ -9,20 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-
-
-function myFunction() {
-
-
-  var x = document.getElementById("myDIV");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-       
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p").hide();
+      });
+      $("#show").click(function(){
+        $("p").show();
+      });
+    });
     </script>
 
 
@@ -102,9 +98,11 @@ body{
             <br><br>
 
             <div width="33%">
-                <img width="15%" style="padding:20px;" type="button" onclick="plus()" src="images/1.png">
+                <img width="15%" style="padding:20px;" id="show" src="images/1.png">
 
                 <div id="myDIV">
+                    <button id="hide"></button>
+
                     This is my DIV element. 333
                   </div>
         
