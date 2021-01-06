@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
+
+    <script>
+        function hideShow() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    </script>
+
+
 </head>
 <style>
     
@@ -82,9 +95,19 @@ body{
             <br><br>
 
             <div width="33%">
-                <a href="SmartStartOpdrachten.html"> <img width="15%" style="padding:20px;" src="images/1.png"></a>
-                <a href="#"><img width="15%" style="padding:20px;" src="images/2.png"></a>
-                <a href="#"><img width="15%" style="padding:20px;" src="images/3.png"></a>
+                <img width="15%" style="padding:20px;" type="button" onclick="hideShow()" src="images/1.png">
+
+                <p id="pen">A Paragraph</p>
+
+                <script>
+                    function hideShow() {
+                      document.getElementById("pen").innerHTML = "Paragraph changed.";
+                    }
+                </script>
+
+
+                <img width="15%" style="padding:20px;" type="button" onclick="myFunction()" src="images/2.png">
+                <img width="15%" style="padding:20px;" type="button" onclick="myFunction()" src="images/3.png">
             </div>
 
 
