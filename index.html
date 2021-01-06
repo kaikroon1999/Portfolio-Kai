@@ -9,16 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
 
-    <script>
-
-        document.getElementById("kaars").style.display = "none";
-
-
-
-    </script>
-
-
-    
 
 </head>
 <style>
@@ -49,6 +39,32 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
 
 
 </style>
@@ -93,20 +109,21 @@ body{
                 
             <br><br>
 
-            <div width="33%">
-                <img width="15%" style="padding:20px;" id="show" src="images/1.png">
-
-                <div id="kaars">
-
-                    This is my DIV element. 777777
-
-                </div>
-        
-
-
-                <img width="15%" style="padding:20px;" type="button" onclick="myFunction()" src="images/2.png">
-                <img width="15%" style="padding:20px;" type="button" onclick="myFunction()" src="images/3.png">
+            <button class="accordion">Opdrachten</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
             </div>
+            
+            <button class="accordion">Competenties</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div>
+            
+            <button class="accordion">Mijn ervaringen</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div>
+            
 
 
 
