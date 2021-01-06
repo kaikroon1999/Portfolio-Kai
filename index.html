@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
 
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+
+        this.classList.toggle("active");
+
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
 
 </head>
 <style>
@@ -53,9 +71,6 @@ body{
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
-}
 
 .panel {
   padding: 0 18px;
@@ -92,6 +107,8 @@ body{
         </div>
         </div>
     </nav>
+
+    <div style="background-color:#333536">
     <div class="tab-content container">
         <div class="tab-pane active fade show" id="start" role="tabpanel" aria-labelledby="start-tab">
             <div class="header" >Hallo dit is mijn portfolio</div>
@@ -123,6 +140,7 @@ body{
             <div class="panel">
               <p>Lorem ipsum...</p>
             </div>
+        </div>
             
 
 
