@@ -10,14 +10,15 @@
     <link rel="icon" href="images/favi.png" type="image/png" sizes="16x16">
 
     <script>
-        function hideShow() {
-            var x = document.getElementById("myDIV");
-            if (x.style.display === "block") {
-              x.style.display = "none";
-            } else {
-              x.style.display = "block";
-            }
-          }
+
+    function hideshow() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "unblock";
+        } else {
+          x.style.display = "block";
+        }
+      }
     </script>
 
 </head>
@@ -97,7 +98,7 @@ body{
                 <img width="15%" style="padding:20px;" type="button" onclick="hideShow()" src="images/1.png">
 
                 <div id="myDIV">
-                    This is my DIV element. 222
+                    This is my DIV element. 2223
                   </div>
         
 
