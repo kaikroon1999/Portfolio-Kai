@@ -12,14 +12,17 @@
     <script>
 
     function hideshow() {
+        var y = none
         var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-          x.style.display = "none";
+        if (x.style.display === "hidden") {
+          x.style.display = "visible";
         } else {
-          x.style.display = "block";
+          x.style.display = "hidden";
         }
       }
     </script>
+
+    
 
 </head>
 <style>
@@ -98,7 +101,7 @@ body{
                 <img width="15%" style="padding:20px;" type="button" onclick="hideShow()" src="images/1.png">
 
                 <div id="myDIV">
-                    This is my DIV element. 22234
+                    This is my DIV element. 2223455
                   </div>
         
 
