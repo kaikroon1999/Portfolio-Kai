@@ -177,7 +177,48 @@
                    <br><br>
                    </p> Hier vind u .... 
                    <br><br>
-                   
+                   <section id="main3a">
+                    <article id="main-col2">
+                      <div id="main-title3a">
+                        <h1>
+                            Covid-19 numbers in the 
+                            <div id="land"></div>
+                        </h1>
+                      </div>
+                      <br>
+                            Datum:
+                            <div id="datum"></div>
+                            <br>
+                            Nieuwe Covid-19 aantallen in Nederland
+                            <div id="Newpositives"></div>
+                            Totale Covid-aantallen in Nederland
+                            <div id="Totalpositives"></div>
+                            <br>
+                            Nieuwe Covid-19 doden
+                            <div id="Newdeaths"></div>
+                            Totaal aantal Covid-19 doden
+                            <div id="Totaldeaths"></div>
+                        </div>
+                        <br>
+                    
+                        <script> lang="text/javascript">
+                            // Future javascript
+                         fetch('https://api.covid19api.com/summary')
+                          .then(function(resp) { return resp.json() }) // Convert datat to json
+                          .then(function(data) {
+                          console.log(data) ;
+                          console.log(data.Countries[121].Country);
+                          console.log(data.Countries[121].TotalDeaths) ;
+                          document.getElementById("land").innerHTML = (data.Countries[121].Country);
+                          document.getElementById("datum").innerHTML = (data.Countries[121].Date);
+                          document.getElementById("Newpositives").innerHTML = (data.Countries[121].NewConfirmed);
+                          document.getElementById("Totalpositives").innerHTML = (data.Countries[121].TotalConfirmed);
+                          document.getElementById("Newdeaths").innerHTML = (data.Countries[121].NewDeaths);
+                          document.getElementById("Totaldeaths").innerHTML = (data.Countries[121].TotalDeaths);
+                          })
+                          .catch(function() { // catch any errors
+                          }) ;
+                        </script>
 
 
 
