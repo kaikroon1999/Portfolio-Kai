@@ -85,7 +85,7 @@
                    <div id="weather">
                    <div id="description"></div>
                    <h1 id="temp"></h1>
-                   <div id="location">New York</div>
+                   <div id="location"></div>
                    </div>
                    <script lang="text/javascript">
                    function weatherBalloon( cityID ) {
@@ -111,6 +111,13 @@
                    document.getElementById('description').innerHTML = d.weather[0].description;
                    document.getElementById('temp').innerHTML = celcius + '&deg;';
                    document.getElementById('location').innerHTML = d.name;
+
+                   if( description.indexOf('rain') > 0 ) {
+                  	document.body.className = 'rainy';
+                   } else if( description.indexOf('cloud') > 0 ) {
+                  	document.body.className = 'cloudy';
+                   } else if( description.indexOf('sunny') > 0 ) {
+  	               document.body.className = 'sunny';
                    }
 
                    </script>
